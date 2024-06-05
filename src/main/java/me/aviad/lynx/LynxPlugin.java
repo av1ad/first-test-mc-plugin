@@ -35,7 +35,7 @@ public final class LynxPlugin extends SimplePlugin {
 
     @EventHandler
     public void onRightClick(final PlayerInteractEntityEvent event) {
-        if (event.getRightClicked().getType() == EntityType.SPIDER)
+        if (event.getRightClicked().getType() == EntityType.COW)
             event.getRightClicked().getWorld().createExplosion(event.getRightClicked().getLocation(), 5);
     }
 
